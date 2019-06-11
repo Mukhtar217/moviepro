@@ -1,0 +1,287 @@
+body{
+    margin:0px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #351F39;
+    color:#709FB0;
+        border:solid 5px black;
+        width:100%;
+                                                                                                                                                                       
+}
+#bottom{
+    text-align: center;
+}
+#header{
+    display:flex;
+    justify-content:center;
+    
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+    color:#709FB0;
+}
+#title, .titleG{
+    font-size:65px;
+      -webkit-text-stroke: 2px #F4E8C1;
+      height:15%;
+      margin-bottom: 15px;
+      margin-top: 20px;
+      font-family: 'Caveat Brush', cursive;
+    text-align: center;
+
+}
+.h2{
+    font-size:50px;
+}
+.searchText{
+    text-decoration: underline;
+   font-size:25px;
+   margin-top: 0px;
+}
+.mainS{
+    display:flex;
+}
+.SearchIMG{
+    width:27px;
+    height:25px;
+    background-color: white;
+    border: gray 3px solid;
+    border-top: gray 3px solid;
+    margin-left: 2px;
+    border-radius: 22px;
+    padding:2px;
+}
+.yearS{
+    
+    text-align: center;
+}
+#logo{
+    width:90%;
+    height:1%;
+    border:white solid;
+}
+.search{
+    height:25px;
+    border:gray 3px solid;
+    margin-left:10px;
+    width:400px;
+    border-radius: 12px;
+}
+.gone{
+    display:none;
+    margin:20px;
+}
+.yearB{
+    margin:20px;
+    border:white 2px solid;
+    color:#351F39;
+          -webkit-text-stroke: 0.5px #351F39;
+
+}
+.parent{
+    display:flex;
+}
+.space{
+    width:50%;
+}
+#display{
+    display: none;
+    width:100%;
+}
+#gameL{
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    margin-top:7px;
+}
+.footer{
+    background-color: black;
+    margin-top:20px;
+    padding:5px;
+    border:solid 3px white;
+    font-size:25px;
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.link{
+    border-right:2px solid blue;
+        border-left:2px solid blue;
+        padding-left: 20%;
+        padding-right: 20%;
+        color:blue;
+
+}
+.link:hover{
+    color:white;
+}
+#gameIM{
+    border:white solid;
+}
+#gameI{
+    display:flex;
+    justify-content:center;
+    padding:10px;
+}
+#gameG{
+    color:white;
+}
+.quiz{
+    text-align:center;
+}
+.sen{
+    font-size:30px;
+      -webkit-text-stroke: 2px #F4E8C1;
+}
+.an{
+    font-size:30px;
+    background-color:purple;
+    border-radius: 12px;
+    padding:5px;
+    border:solid 3px black;
+    padding-left:10px;
+        padding-right:10px;
+
+}
+.an:hover{
+    background-color:green;
+    color:white;
+    border:solid 3px white;
+}
+.flex{
+    display:flex;
+    justify-content:space-around;
+}
+.img, .emo2, .emo5{
+    width:50%;
+    border:solid 5px black;
+}
+.emo{
+    width:25%;
+    padding-right:10px;
+}
+.emo2, .emo5{
+    width:25%;
+}
+.emo1{
+    width:17%;
+}
+.vil{
+    font-size:25px;
+      -webkit-text-stroke: 1.5px #F4E8C1;
+}
+.des{
+    font-size:20px;
+      -webkit-text-stroke: 1.5px #F4E8C1;
+}
+.next{
+    color:black;
+    background-color:blue;
+    border-radius: 12px;
+    padding:5px;
+    border:solid 3px white;
+    width:7%;
+    margin-left:46%;
+    font-size:35px;
+}
+.next:hover{
+    color:white;
+    background-color:black;
+    border-radius: 12px;
+    padding:5px;
+    border:solid 3px purple;
+    margin-left:46%;
+    font-size:35px;
+}
+
+.quiz{
+    display:none;
+}
+.di{
+    text-align: center;
+    border-radius: 12px;
+    border:solid black 3px;
+    padding:10px;
+    margin-top:50px;
+    color:black;
+    font-size: 25px;
+}
+.di:hover{
+    background-color: purple;
+}
+.e{
+    background-color:green;
+}
+.m{
+        background-color:yellow;
+}
+.h{
+        background-color:orange;
+}
+.ex{
+        background-color:red;
+}
+.d{
+    margin:2px;
+}
+.titleDis{
+    display:none;
+    justify-content:space-between;
+    background-color:black;
+    margin:20px;
+    padding-right:10px;
+    padding-left:10px;
+    border:solid 3px white;
+}
+#sideS{
+    display:flex;
+    margin-top:35px;
+}
+.dis{
+    margin-top:30px;
+}
+.apiD{
+    margin:15px;
+}
+#MAIN{
+    border-right-width: 0px;
+}
+.MovIm{
+    height:90%;
+    border:solid 3px black;
+}
+.titleM{
+    
+ font-size:30px;
+      -webkit-text-stroke: 1.5px #F4E8C1;
+}
+.QuizN{
+    font-size:50px;
+      -webkit-text-stroke: 1.5px #F4E8C1;
+}
+.scoreR{
+    font-size:23px;
+      -webkit-text-stroke: 1.5px #F4E8C1;
+      text-align: center;
+      margin-top:60px;
+      margin-bottom: 150px;
+}
+.endIm{
+    width:35%;
+    height:95%;
+}
+.QR{
+    background-color:black;
+    border:solid 3px white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mainR{
+    height:600px;
+}
+#playA{
+    color:blue;
+}
+#Score{
+    display:none;
+}
