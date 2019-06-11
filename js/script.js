@@ -10,6 +10,7 @@ $("#yearB").click(function(){
 $(".SearchIMG").click(function(){
       var title = $(".tit").val();
       var year = $(".gone").val();
+      $("#display").css("display","flex");
     $("#main").css("display","none");
     $(".titleDis").css("display","flex");
           $("#display").empty();

@@ -85,7 +85,9 @@ body{
 }
 #display{
     display: none;
+    justify-content:space-around;
     width:100%;
+    flex-flow:row wrap;
 }
 #gameL{
     text-decoration: underline;
@@ -241,17 +243,17 @@ body{
     margin-top:30px;
 }
 .apiD{
-    margin:15px;
+    margin:20px;
 }
 #MAIN{
     border-right-width: 0px;
 }
 .MovIm{
-    height:90%;
+    height:70%;
     border:solid 3px black;
 }
 .titleM{
-    
+    text-align: center;
  font-size:30px;
       -webkit-text-stroke: 1.5px #F4E8C1;
 }
